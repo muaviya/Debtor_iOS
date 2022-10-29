@@ -32,7 +32,6 @@
 		4253E453290D700C00EDE5ED /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E452290D700C00EDE5ED /* Functions.swift */; };
 		4253E455290D705100EDE5ED /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E454290D705100EDE5ED /* Types.swift */; };
 		4253E457290D711C00EDE5ED /* Di.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E456290D711C00EDE5ED /* Di.swift */; };
-		4253E459290D760D00EDE5ED /* LoginStatusProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E458290D760D00EDE5ED /* LoginStatusProviderImpl.swift */; };
 		4253E45B290D762B00EDE5ED /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E45A290D762B00EDE5ED /* Router.swift */; };
 		4253E45D290D768200EDE5ED /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E45C290D768200EDE5ED /* ProductionConfiguration.swift */; };
 		4253E45F290D76B000EDE5ED /* BaseJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E45E290D76B000EDE5ED /* BaseJSONDecoder.swift */; };
@@ -47,6 +46,7 @@
 		4253E475290D793C00EDE5ED /* LoginProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E474290D793C00EDE5ED /* LoginProviderScreenshotMock.swift */; };
 		4253E477290D794E00EDE5ED /* LoginStatusProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E476290D794E00EDE5ED /* LoginStatusProviderScreenshotMock.swift */; };
 		4253E479290D796F00EDE5ED /* ApplicationCoordinatorScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E478290D796F00EDE5ED /* ApplicationCoordinatorScreenshotMock.swift */; };
+		42E82EB3290DD99400123064 /* LoginStatusProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E82EB2290DD99400123064 /* LoginStatusProviderImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +94,6 @@
 		4253E452290D700C00EDE5ED /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		4253E454290D705100EDE5ED /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		4253E456290D711C00EDE5ED /* Di.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Di.swift; sourceTree = "<group>"; };
-		4253E458290D760D00EDE5ED /* LoginStatusProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderImpl.swift; sourceTree = "<group>"; };
 		4253E45A290D762B00EDE5ED /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4253E45C290D768200EDE5ED /* ProductionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionConfiguration.swift; sourceTree = "<group>"; };
 		4253E45E290D76B000EDE5ED /* BaseJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseJSONDecoder.swift; sourceTree = "<group>"; };
@@ -109,6 +108,7 @@
 		4253E474290D793C00EDE5ED /* LoginProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProviderScreenshotMock.swift; sourceTree = "<group>"; };
 		4253E476290D794E00EDE5ED /* LoginStatusProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderScreenshotMock.swift; sourceTree = "<group>"; };
 		4253E478290D796F00EDE5ED /* ApplicationCoordinatorScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinatorScreenshotMock.swift; sourceTree = "<group>"; };
+		42E82EB2290DD99400123064 /* LoginStatusProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,7 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				4253E43B290D6DAD00EDE5ED /* LoginProvider.swift */,
-				4253E458290D760D00EDE5ED /* LoginStatusProviderImpl.swift */,
+				42E82EB2290DD99400123064 /* LoginStatusProviderImpl.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -572,13 +572,13 @@
 				4253E457290D711C00EDE5ED /* Di.swift in Sources */,
 				4253E468290D784E00EDE5ED /* LoginCoordinator.swift in Sources */,
 				4253E473290D790B00EDE5ED /* DiScreenshotMock.swift in Sources */,
+				42E82EB3290DD99400123064 /* LoginStatusProviderImpl.swift in Sources */,
 				4253E43F290D6DD800EDE5ED /* AuthenticatorService.swift in Sources */,
 				4253E455290D705100EDE5ED /* Types.swift in Sources */,
 				4253E453290D700C00EDE5ED /* Functions.swift in Sources */,
 				4253E433290D4FBB00EDE5ED /* LoginScreenVC.swift in Sources */,
 				4253E436290D572000EDE5ED /* loadFromNib.swift in Sources */,
 				4253E46C290D789F00EDE5ED /* TestConfiguration.swift in Sources */,
-				4253E459290D760D00EDE5ED /* LoginStatusProviderImpl.swift in Sources */,
 				4253E475290D793C00EDE5ED /* LoginProviderScreenshotMock.swift in Sources */,
 				4253E44F290D6FD500EDE5ED /* KeychainItemAccessibility.swift in Sources */,
 				4253E45F290D76B000EDE5ED /* BaseJSONDecoder.swift in Sources */,
